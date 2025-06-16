@@ -13,14 +13,18 @@ This section now includes [Frank Donnelly's updated code](https://github.com/Bro
 This workflow requires you to run pre-written python programs in order to search and then collect article data from the NYT archives. In order to run these programs, you will need:
 
 ### Python and Python Packages
-To install python if you have not already. Download a recent version from this link. This tutorial was written as of version 3.10.5.
-To install a few python modules to help these programs run. Rather than downloading anything from a website, this requires you to go into the Terminal (if you are on Mac) or Command Prompt (on Windows) and enter some commands. First, search for the relevant program on your device (Terminal or Command Prompt, depending on which type of computer you have) and open it. You will see a screen that looks like this: empty terminal
-Since you have already installed python in the first step above, you can begin installing the relevant packages. Type (or copy) in the command python3 -m pip install requests and press enter. It may take a moment to complete (you will see text appearing and scrolling by, listing the progress of the download), but eventually the command line will reappear with the flashing cursor, like so: after first command You will have different text between the first command (highlighted in blue in the image) and the new command line (at the bottom, where the grey box cursor now is), because you are downloading these packages for the first time.
-In the same way you entered this command and then waited for it to finish, enter the following commands:
+1. To install python if you have not already. Download a recent version from this link. This tutorial was written as of version 3.10.5.
+2. To install a few python modules to help these programs run. Rather than downloading anything from a website, this requires you to go into the Terminal (if you are on Mac) or Command Prompt (on Windows) and enter some commands.
+   - Search for the relevant program on your device (Terminal or Command Prompt, depending on which type of computer you have) and open it. You will see a screen that looks like this: empty terminal
+   - Since you have already installed python in the first step above, you can begin installing the relevant packages.
+   - Type (or copy) in the command ```python3 -m pip install requests``` and press enter. It may take a moment to complete (you will see text appearing and scrolling by, listing the progress of the download), but eventually the command line will reappear with the flashing cursor
+   - You will have different text between the first command (highlighted in blue in the image) and the new command line (at the bottom, where the grey box cursor now is), because you are downloading these packages for the first time.
+3. In the same way you entered this command and then waited for it to finish, enter the following commands:
+```
 python3 -m pip install bs4
 python3 -m pip install lxml
+```
 Now you have everything set up to run these scripts!
-
 
 ## 2. Get an API key:
     - You will also need an API key from the NYT. Follow the sign up process [here](https://developer.nytimes.com/) to create a developer account. Once you are signed in, go to the "My Apps" page [here.](https://developer.nytimes.com/my-apps) 
@@ -29,7 +33,7 @@ Now you have everything set up to run these scripts!
     - Take note of any restrictions on the number of requests you can make.
 
 ## 3. **Save your API key**:
-    - Store your API key in a plain text file (`nyt_key.txt`), as the script will read it from this file.
+Store your API key in a plain text file (`nyt_key.txt`), as the script will read it from this file.
     
 ## 4. Searching
 
@@ -72,7 +76,7 @@ To complete the setup, open a text editor (TextEdit will work fine) and save an 
 
 folder set up
 
-##6. Scraping
+## 6. Scraping
 Navigate in the terminal to the "NYT Scraping" folder, either by right clicking and selecting "New Terminal at Folder" or by using cd commands to navigate to it. (For example, if it was in your documents folder, you would start with the command cd Documents and then type cd "NYT Scraping").
 
 Now type or paste into the Terminal or Command Prompt this command to run the program:
