@@ -23,7 +23,7 @@ Now you have everything set up to run these scripts!
 
 
 ## 2. Get an API key:
-    - You will also need an API key from the NYT. Follow the sign up process [here](https://developer.nytimes.com/) to create a developer account. Once you are signed in, go to the "My Apps" page [here.](https://developer.nytimes.com/my-apps) 
+    - You will also need an API key from the NYT. Follow the sign up process [here](https://developer.nytimes.com/) to create a developer account. Once you are signed in, go to the "My Apps" page [here.](https://developer.nytimes.com/my-apps) or click on your username and "My Apps" in the dropdown.
     - Click the "+ New App" button in the top right corner. Give your project a name and make sure to Enable the Article Search API. Click save, and you should be brought to a screen that looks like this: 
     ![NYT site](Images/NYT/nytsite.png)
     - Take note of any restrictions on the number of requests you can make.
